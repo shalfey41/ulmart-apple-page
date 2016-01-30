@@ -1,27 +1,27 @@
 /* fonts */
 @font-face {
+    font-weight: 500;
+    font-style: normal;
     font-family: "Myriad Set Pro";
     src: url('fonts/myriad-set-pro_medium.woff2') format('woff2'),
          url('fonts/myriad-set-pro_medium.woff') format('woff'),
          url('fonts/myriad-set-pro_medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
 }
 
 @font-face {
+    font-weight: 300;
+    font-style: normal;
     font-family: "Myriad Set Pro";
     src: url('fonts/myriad-set-pro_thin.woff2') format('woff2'),
          url('fonts/myriad-set-pro_thin.woff') format('woff'),
          url('fonts/myriad-set-pro_thin.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
 }
 
 
 /* global classes */
 body {
-  font-family: "Myriad Set Pro", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
+  font-family: "Myriad Set Pro", "Helvetica", "Arial", sans-serif;
 }
 
 h1,
@@ -40,16 +40,16 @@ figure {
 }
 
 .p-container {
-  width: 1240px;
   margin: 0 auto;
+  width: 1240px;
 }
 
 .p-col-4 {
-  width: 33.33333333%;
   float: left;
-  border-right: 1px solid #e5e5e5;
   box-sizing: border-box;
   padding: 0 27px;
+  width: 33.33333333%;
+  border-right: 1px solid #e5e5e5;
 }
 
 .p-col-4:last-child {
@@ -59,8 +59,8 @@ figure {
 
 /* headers */
 .p-content-header {
-  font-size: 34px;
   font-weight: 300;
+  font-size: 34px;
 }
 
 .p-content-title,
@@ -69,13 +69,14 @@ figure {
 }
 
 .p-content-title {
-  font-weight: 500;
   padding-bottom: 25px;
+  font-weight: 500;
 }
 
 .p-content-text {
-  line-height: 1.25;
   padding-bottom: 14px;
+  line-height: 1.25;
+  text-align: justify;
 }
 
 .p-content-text:last-child {
@@ -89,8 +90,12 @@ figure {
   padding-bottom: 41px;
 }
 .p-content-lead {
-  text-align: center;
   padding-bottom: 42px;
+  text-align: center;
+}
+
+.p-content-lead .p-content-text{
+  text-align: center;
 }
 
 .p-content-header {
@@ -99,10 +104,10 @@ figure {
 }
 
 .p-content-header-text {
-  width: 180px;
   margin: 0 auto;
-  line-height: 1;
   padding-bottom: 0;
+  width: 180px;
+  line-height: 1;
 }
 
 .p-content-lead img {
@@ -117,14 +122,14 @@ figure {
 .p-content-btn {
   display: inline-block;
   padding: 9px 21px 2px;
-  background-color: #e51839;
   max-width: 80%;
   border-radius: 8px;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 0.065em;
-  text-decoration: none;
+  background-color: #e51839;
   color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.065em;
+  font-size: 20px;
 }
 
 .p-content-img {
@@ -138,8 +143,8 @@ figure {
 }
 
 .p-img-closer {
+  margin: 0 auto;
   padding-top: 6px;
   padding-bottom: 5px;
   width: 90%;
-  margin: 0 auto;
 }
