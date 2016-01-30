@@ -52,7 +52,7 @@
 		pagerCustom: null,
 
 		// CONTROLS
-		controls: true,
+		controls: false,
 		nextText: 'Next',
 		prevText: 'Prev',
 		nextSelector: null,
@@ -1339,5 +1339,6 @@
 		// returns the current jQuery object
 		return this;
 	}
+    
 
 })(jQuery);
